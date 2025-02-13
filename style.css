@@ -1,0 +1,69 @@
+@import url('https://fonts.cdnfonts.com/css/coolvetica'); 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "coolvetica", sans-serif;
+    height: auto 0;
+  }
+
+  .section-padding{
+    padding: 5rem 0;
+  }
+
+  .container {
+    display: flex;
+    max-width: fit-content;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(229, 159, 179);
+  }
+
+  .bgutama-container{
+    background-color: rgba(229, 159, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second-container{
+    background-color: rgba(229, 159, 179);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .second-container .second_text p{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 7px rgba(254,205,59);
+    paint-order: stroke;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 200px;
+  }
+
+  .second-container .second_text .button{
+    background-color: #f95c88;
+    color: white; 
+    border: 2px solid white;
+    padding: 14px 35px;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-bottom: 300px;
+  }
+
+  .second-container .second_text .button:hover{
+    background-color: #04AA6D;
+    color: white;
+  }
+
